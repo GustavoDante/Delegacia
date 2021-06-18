@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BOAnonimoController">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TextField fx:id="endereco" alignment="CENTER" layoutX="186.0" layoutY="137.0" prefHeight="25.0" prefWidth="268.0" promptText="ENDEREÇO COMPLETO" />
+            <Button layoutX="320.0" layoutY="313.0" mnemonicParsing="false" onAction="#cadastrarDenuncia" prefHeight="36.0" prefWidth="134.0" text="CADASTRAR B.O" />
+            <ComboBox fx:id="comboBox" layoutX="186.0" layoutY="175.0" onAction="#carregarCategorias" prefHeight="25.0" prefWidth="268.0" promptText="Tipos de crimes" />
+            <TextArea fx:id="denuncia" layoutX="186.0" layoutY="208.0" prefHeight="98.0" prefWidth="268.0" promptText="Detalhe a denuncia aqui!" />
+            <Button layoutX="187.0" layoutY="313.0" mnemonicParsing="false" onAction="#trocarParaPrincipal" prefHeight="36.0" prefWidth="121.0" text="CANCELAR" />
+            <Text fx:id="text" layoutX="-41.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="545.13671875">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,1 @@
+Ola, este progeto fiz para uma cadeira da faculdade e no inicio da minha aprendizagem na linguagem java, tem muito a se melhorar e pretendo mudar o repositorio dele de arquivo para mysql em breve.

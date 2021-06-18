@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ListaEBuscaController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="121.0" layoutY="200.0" mnemonicParsing="false" onAction="#mudarParaMostrarFuncionarios" text="LISTAR FUNCIONÁRIOS" />
+            <Button layoutX="368.0" layoutY="183.0" mnemonicParsing="false" onAction="#mudarParaBuscarFuncionario" text="BUSCAR FUNCIONÁRIOS" />
+            <Button layoutX="121.0" layoutY="242.0" mnemonicParsing="false" onAction="#mudarParaMostrarDetentos" prefHeight="25.0" prefWidth="141.0" text="LISTAR DETENTOS" />
+            <Button layoutX="368.0" layoutY="223.0" mnemonicParsing="false" onAction="#mudarParaBuscarDetento" prefHeight="25.0" prefWidth="149.0" text="BUSCAR DETENTOS" />
+            <Button layoutX="121.0" layoutY="283.0" mnemonicParsing="false" onAction="#mudarParaMostrarViaturas" prefHeight="25.0" prefWidth="141.0" text="LISTAR VIATURAS" />
+            <Button layoutX="368.0" layoutY="264.0" mnemonicParsing="false" onAction="#mudarParaBuscarViatura" prefHeight="25.0" prefWidth="149.0" text="BUSCAR VIATURAS" />
+            <Button layoutX="121.0" layoutY="163.0" mnemonicParsing="false" onAction="#mudarParaMostrarPoliciais" prefHeight="25.0" prefWidth="141.0" text="LISTAR POLICIAIS" />
+            <Button layoutX="368.0" layoutY="144.0" mnemonicParsing="false" onAction="#mudarParaBuscarPolicial" prefHeight="25.0" prefWidth="149.0" text="BUSCAR POLICIAIS" />
+            <Button layoutX="121.0" layoutY="119.0" mnemonicParsing="false" onAction="#mudarParaMostrarDenuncias" prefHeight="25.0" prefWidth="141.0" text="LISTAR DENUNCIAS" />
+            <Button layoutX="368.0" layoutY="107.0" mnemonicParsing="false" onAction="#mudarParaBuscarDenuncia" prefHeight="25.0" prefWidth="149.0" text="BUSCAR DENUNCIAS" />
+            <Separator layoutX="317.0" layoutY="75.0" orientation="VERTICAL" prefHeight="241.0" prefWidth="5.0" />
+            <Button layoutX="125.0" layoutY="82.0" mnemonicParsing="false" onAction="#mudarParaMostrarDelegado" text="MOSTRAR DELEGADO" />
+            <Button layoutX="565.0" layoutY="373.0" mnemonicParsing="false" onAction="#mudarParaAnterior" text="CANCELAR" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

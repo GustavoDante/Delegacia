@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AtualizarViaturaController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="640.0">
+         <children>
+            <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <TextField alignment="CENTER" layoutX="171.0" layoutY="125.0" prefHeight="25.0" prefWidth="299.0" promptText="PLACA DA VIATURA" />
+                  <Button layoutX="349.0" layoutY="188.0" mnemonicParsing="false" onAction="#atualizarViatura" prefHeight="40.0" prefWidth="121.0" text="ATUALIZAR" />
+                  <TextField alignment="CENTER" layoutX="171.0" layoutY="84.0" prefHeight="25.0" prefWidth="299.0" promptText="ANO DE FABRICAÇÃO" />
+                  <Button layoutX="171.0" layoutY="188.0" mnemonicParsing="false" onAction="#MudarParaAnterior" prefHeight="40.0" prefWidth="121.0" text="CANCELAR" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
