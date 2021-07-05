@@ -6,17 +6,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "controller.Main",
-            "projectName": "Exemplo_4e9ad8e8",
+            "projectName": "Delegacia_2d6e6197",
             "vmArgs": "--module-path \"C:/Users/gusta/.vscode/extensions/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "pwa-msedge",
+            "request": "launch",
+            "name": "Launch Edge against localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
